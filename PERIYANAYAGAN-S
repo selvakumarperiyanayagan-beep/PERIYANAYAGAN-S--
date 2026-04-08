@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Periyanayagan S</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, purple, violet);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      margin-top: 100px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h2 {
+      margin-top: 10px;
+      font-weight: normal;
+    }
+
+    .card {
+      background: white;
+      color: black;
+      margin: 40px auto;
+      padding: 20px;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px black;
+    }
+
+    button {
+      background: purple;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: violet;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>👋 Welcome</h1>
+    <h2>PERIYANAYAGAN S</h2>
+
+    <div class="card">
+      <p>📌 This is my personal website</p>
+      <p>📱 Phone: 9342896507</p>
+      <p>📧 Email: selvakumarperiyanayagan@gmail.com</p>
+
+      <button onclick="showMsg()">Click Me</button>
+      <p id="msg"></p>
+    </div>
+  </div>
+
+  <script>
+    function showMsg() {
+      document.getElementById("msg").innerHTML = "🔥 Thanks for visiting my website!";
+    }
+  </script>
+
+</body>
+</html>
